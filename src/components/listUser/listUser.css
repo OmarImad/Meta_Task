@@ -1,0 +1,51 @@
+.body-search {
+  margin-left: 135px;
+  margin-top: 50px;
+}
+
+.body-search h3 {
+  font-size: 1.5rem;
+  color: #666;
+  font-weight: 100;
+}
+
+.body-search .form {
+  margin-top: 1.5rem;
+}
+
+.body-search .form form {
+  display: flex;
+}
+
+.body-search .form form .form-group {
+  margin-right: 1.5rem;
+}
+
+.body-search .table-area h3 {
+  font-size: 1.5rem;
+  color: #666;
+  font-weight: 100;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 15px;
+  color: rgb(95, 95, 95);
+}
+
+tr:nth-child(even) {
+  background-color: #f5f3f3;
+}
+
+.icon{
+  cursor: pointer;
+}

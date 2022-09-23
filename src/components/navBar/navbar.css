@@ -1,0 +1,51 @@
+.nav {
+  border: 1px solid;
+  margin-top: 1rem;
+  width: 100%;
+  height: 55px;
+  border-color: #2020eb;
+}
+
+.nav .navbar .collapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .navbar .collapse .bar {
+  background: #606060;
+  width: 90px;
+  height: 55px;
+  display: flex;
+  /* text-align: center; */
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav .navbar .information {
+  display: flex;
+  align-items: center;
+}
+
+.nav .navbar .information h4 {
+  font-size: 1rem;
+  font-weight: 100;
+  color: #636262;
+}
+
+.nav .navbar .information span {
+  font-size: 0.8rem;
+  color: #919191;
+}
+
+.nav .navbar .information .image {
+  border: 1px solid;
+  padding: 0.7rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+  margin-right: 0.5rem;
+  color: #636262;
+}

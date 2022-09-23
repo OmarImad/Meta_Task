@@ -1,0 +1,102 @@
+.body {
+  margin-left: 135px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.body-search {
+  margin-left: 135px;
+  margin-top: 20px;
+}
+
+.body .details {
+  min-width: 700px;
+}
+
+.body .details h4 {
+  font-weight: 100;
+  font-size: 1.45rem;
+  color: #7c7979;
+  margin-bottom: 0.45rem;
+}
+
+.body .details form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+form .form-group input {
+  width: 250px;
+  height: 30px;
+  padding: 2px 5px;
+  margin-bottom: 20px;
+}
+
+.body .image-area {
+  width: 100%;
+  margin-left: 20px;
+}
+
+.body .image-area h4 {
+  font-weight: 100;
+  font-size: 1.45rem;
+  color: #7c7979;
+  margin-bottom: 0.45rem;
+}
+
+.body .image-area .image {
+  height: 250px;
+  width: 100%;
+  margin-top: 1rem;
+  border: 1px solid;
+  border-color: #d3d3d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+.body .image-area .select {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.body .image-area .select-image {
+  background-color: #ebebeb;
+  padding: 10px;
+  color: #2e2e2e;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 135px;
+}
+
+.buttons button {
+  width: 115px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.buttons .edit-user button {
+  background: #606060 !important;
+}
+
+.buttons .edit-user button {
+  color: rgb(233, 232, 232);
+}
+
+.buttons .cancel-user button {
+  color: rgb(95, 95, 95);
+}
+
+.buttons .edit-user {
+  margin-right: 1rem;
+}
+
+.block {
+  display: block !important;
+}
